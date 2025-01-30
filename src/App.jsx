@@ -24,7 +24,9 @@ export default function App() {
 
         <main className="flex-1 pb-20 md:pb-6">
           <div className="mx-auto max-w-7xl px-4 py-6 md:px-6">
-            <h1 className="mb-6 text-3xl  font-bold text-zinc-950">Overview</h1>
+            <h1 className="mb-6 text-2xl antialiased  font-bold text-zinc-950">
+              Overview
+            </h1>
 
             <div className="space-y-6">
               <OverviewCards />
